@@ -1,0 +1,33 @@
+﻿<Window x:Class="ChessProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChessProject"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        Background="BurlyWood">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="100"/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="400"/>
+            <ColumnDefinition Width="200"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Create a username " Width="350" Height="40" FontSize="30" Margin="25,40,25,120" Panel.ZIndex="1" Grid.Row="1" Grid.Column="1"/>
+        <Button Name="ToMenu" Content="Continue" HorizontalAlignment="Left" Margin="250,0,0,0" VerticalAlignment="Center" Click="ToMenu_Click" Width="70" Height="30" FontSize="15" Panel.ZIndex="1" Grid.Row="1" Grid.Column="1"/>
+
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <TextBox x:Name="inputTextBox"
+                     Height="25"
+                     Text="Bob" 
+                     Background="BurlyWood"
+                     GotFocus="TextBox_GotFocus"
+                     LostFocus="TextBox_LostFocus" Margin="25,88,175,88" Grid.Row="1" Grid.Column="1"/>
+    </Grid>
+</Window>

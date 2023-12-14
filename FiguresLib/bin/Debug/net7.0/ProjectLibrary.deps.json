@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ProjectLibrary/1.0.0": {
+        "dependencies": {
+          "Bg.Chess": "0.1.5",
+          "Stockfish.NET": "1.0.7"
+        },
+        "runtime": {
+          "ProjectLibrary.dll": {}
+        }
+      },
+      "Bg.Chess/0.1.5": {
+        "runtime": {
+          "lib/net5.0/Bg.Chess.Domain.dll": {
+            "assemblyVersion": "0.1.5.0",
+            "fileVersion": "0.1.5.0"
+          }
+        }
+      },
+      "Stockfish.NET/1.0.7": {
+        "runtime": {
+          "lib/netcoreapp3.1/Stockfish.NET.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProjectLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Bg.Chess/0.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OE6/CRlJmq1EX9hRQCvTJu6T3EcLvP6bFroo3RsOdOS7wsvARJnnlO/liMVKNagnsthHI92Jui4Y7oyDNXwAOg==",
+      "path": "bg.chess/0.1.5",
+      "hashPath": "bg.chess.0.1.5.nupkg.sha512"
+    },
+    "Stockfish.NET/1.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-q9qZkGfgX+AbMmcuDh5MGM8wDMbf5eU8MSWRX6eyRjO1HNQ4V7WFtGV0LJriuknwGB0L3CWmNNLusf8GPLrRwA==",
+      "path": "stockfish.net/1.0.7",
+      "hashPath": "stockfish.net.1.0.7.nupkg.sha512"
+    }
+  }
+}

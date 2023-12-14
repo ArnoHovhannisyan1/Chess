@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ofdwdIaUEwgUbH8jtAABYEd1RtaCexE+aD6eJmGyhGY4igDdAogsCnRq6Vhjsqw1nL4y2+Ot41pdvRg3iagjkA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\arnoh\\OneDrive\\Desktop\\ChessProject\\ChessProject\\ChessProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arnoh\\.nuget\\packages\\bg.chess\\0.1.5\\bg.chess.0.1.5.nupkg.sha512",
+    "C:\\Users\\arnoh\\.nuget\\packages\\stockfish.net\\1.0.7\\stockfish.net.1.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}

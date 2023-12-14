@@ -1,0 +1,12 @@
+C:\Users\arnoh\OneDrive\Desktop\temp\ChessProject\FiguresLib\bin\Debug\net7.0\FiguresLib.deps.json
+C:\Users\arnoh\OneDrive\Desktop\temp\ChessProject\FiguresLib\bin\Debug\net7.0\FiguresLib.dll
+C:\Users\arnoh\OneDrive\Desktop\temp\ChessProject\FiguresLib\bin\Debug\net7.0\FiguresLib.pdb
+C:\Users\arnoh\OneDrive\Desktop\temp\ChessProject\FiguresLib\obj\Debug\net7.0\FiguresLib.csproj.AssemblyReference.cache
+C:\Users\arnoh\OneDrive\Desktop\temp\ChessProject\FiguresLib\obj\Debug\net7.0\FiguresLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnoh\OneDrive\Desktop\temp\ChessProject\FiguresLib\obj\Debug\net7.0\FiguresLib.AssemblyInfoInputs.cache
+C:\Users\arnoh\OneDrive\Desktop\temp\ChessProject\FiguresLib\obj\Debug\net7.0\FiguresLib.AssemblyInfo.cs
+C:\Users\arnoh\OneDrive\Desktop\temp\ChessProject\FiguresLib\obj\Debug\net7.0\FiguresLib.csproj.CoreCompileInputs.cache
+C:\Users\arnoh\OneDrive\Desktop\temp\ChessProject\FiguresLib\obj\Debug\net7.0\FiguresLib.dll
+C:\Users\arnoh\OneDrive\Desktop\temp\ChessProject\FiguresLib\obj\Debug\net7.0\refint\FiguresLib.dll
+C:\Users\arnoh\OneDrive\Desktop\temp\ChessProject\FiguresLib\obj\Debug\net7.0\FiguresLib.pdb
+C:\Users\arnoh\OneDrive\Desktop\temp\ChessProject\FiguresLib\obj\Debug\net7.0\ref\FiguresLib.dll

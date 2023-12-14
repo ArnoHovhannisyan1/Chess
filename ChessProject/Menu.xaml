@@ -1,0 +1,31 @@
+﻿<Window x:Class="ChessProject.Menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChessProject"
+        mc:Ignorable="d"
+        Title="Menu" Height="450" Width="800"
+        Background="BurlyWood">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="400"/>
+            <ColumnDefinition Width="200"/>
+        </Grid.ColumnDefinitions>
+
+        <Button x:Name="PlayButton" Width="130" Height="40" Content="Play" Background="MediumAquamarine" FontSize="25" Margin="35,30,35,30" Click="PlayButton_Click"/>
+        <Button x:Name="PuzzlesButton" Width="180" Height="40" Content="Solve Puzzles" Background="MediumAquamarine" FontSize="25" Margin="10,30,10,30" Grid.Row="1"/>
+        <Button x:Name="InterestingButton" Width="130" Height="40" Content="Interesting" Background="MediumAquamarine" FontSize="25" Margin="35,30,35,30" Grid.Row="2"/>
+        <Button x:Name="SettingsButton" Width="130" Height="40" Content="Settings" Background="MediumAquamarine" FontSize="25" Margin="35,30,35,30" Grid.Row="3"/>
+        <TextBlock x:Name="NameField"  Height="30" FontSize="25" Grid.Column="2" Margin="65,5,10,65" Grid.Row="1" FontFamily="cursive"/>
+        <Image Source="C:\Users\arnoh\OneDrive\Desktop\temp\ChessProject\ChessProject\Figures\malePerson.jpg" Width="100" Height="100" Grid.Column="2" Margin="50,0,50,0"/>
+
+    </Grid>
+</Window>
