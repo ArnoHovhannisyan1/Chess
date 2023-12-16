@@ -34,11 +34,11 @@ namespace ChessProject
         private TimeSpan remainingTime2;
 
         List<Rectangle> rects = new List<Rectangle>();
-      //  List<Coords> LegalMoves = new List<Coords>();
+        //  List<Coords> LegalMoves = new List<Coords>();
         System.Windows.UIElement ancord = new System.Windows.UIElement();
         Rectangle destRect = new Rectangle();
         public bool SomeOneIsSelected;
-        //IFigure MovingFigure;
+        //  IFigure MovingFigure;
 
 
         public ChessBoard()

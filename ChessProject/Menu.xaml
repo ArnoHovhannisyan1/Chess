@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Menu" Height="450" Width="800"
         Background="BurlyWood">
-    <Grid>
+    <Grid Name="MyGrid">
         <Grid.RowDefinitions>
             <RowDefinition Height="100"/>
             <RowDefinition Height="100"/>
@@ -24,8 +24,10 @@
         <Button x:Name="PuzzlesButton" Width="180" Height="40" Content="Solve Puzzles" Background="MediumAquamarine" FontSize="25" Margin="10,30,10,30" Grid.Row="1"/>
         <Button x:Name="InterestingButton" Width="130" Height="40" Content="Interesting" Background="MediumAquamarine" FontSize="25" Margin="35,30,35,30" Grid.Row="2"/>
         <Button x:Name="SettingsButton" Width="130" Height="40" Content="Settings" Background="MediumAquamarine" FontSize="25" Margin="35,30,35,30" Grid.Row="3"/>
-        <TextBlock x:Name="NameField"  Height="30" FontSize="25" Grid.Column="2" Margin="65,5,10,65" Grid.Row="1" FontFamily="cursive"/>
-        <Image Source="C:\Users\arnoh\OneDrive\Desktop\temp\ChessProject\ChessProject\Figures\malePerson.jpg" Width="100" Height="100" Grid.Column="2" Margin="50,0,50,0"/>
+        <TextBlock x:Name="NameField"  Height="30" FontSize="25" Grid.Column="2" Margin="75,5,0,65" Grid.Row="1" FontFamily="cursive"/>
+        <Border Background="BurlyWood" Width="100" Height="100" Grid.Column="2" Panel.ZIndex="1" Margin="50,0,50,0">
+        <Image Name="UserImage" Stretch="Uniform"/>
+            </Border>
 
     </Grid>
 </Window>

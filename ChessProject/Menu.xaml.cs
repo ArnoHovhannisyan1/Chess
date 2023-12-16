@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjectLibrary;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -26,6 +27,23 @@ namespace ChessProject
             InitializeComponent();
             this.name = name;
             NameField.Text = name;
+            Uri uri = new Uri(@"C:\Users\arnoh\OneDrive\Desktop\ChessProject\ChessProject\Figures\forOthers.jpg");
+            switch (AllPositions.Gender)
+            {
+                case "Male":
+                    uri = new Uri(@"C:\Users\arnoh\OneDrive\Desktop\ChessProject\ChessProject\Figures\vecteezy_businessman-icon-man-icon-png-design-illustration_15119100.png");
+                    break;
+                case "Female":
+                    uri = new Uri(@"C:\Users\arnoh\OneDrive\Desktop\ChessProject\ChessProject\Figures\female-icon-33.png");
+                    break;
+                case "Other":
+                    break;
+                default:
+                    break;
+            }
+            ImageSource imageSource = new BitmapImage(uri);
+            UserImage.Source = imageSource;
+            
         }
         private void PlayButton_Click(object sender, RoutedEventArgs e)
         {

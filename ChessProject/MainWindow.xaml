@@ -23,6 +23,11 @@
         <Button Name="ToMenu" Content="Continue" HorizontalAlignment="Left" Margin="250,0,0,0" VerticalAlignment="Center" Click="ToMenu_Click" Width="70" Height="30" FontSize="15" Panel.ZIndex="1" Grid.Row="1" Grid.Column="1"/>
 
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <StackPanel Grid.Column="1" Margin="25,117,175,83" Grid.RowSpan="2" Grid.Row="1">
+            <RadioButton Content="Male" GroupName="GenderGroup" Checked="RadioButton_Checked" />
+            <RadioButton Content="Female" GroupName="GenderGroup" Checked="RadioButton_Checked" />
+            <RadioButton Content="Other" GroupName="GenderGroup" Checked="RadioButton_Checked" />
+        </StackPanel>
         <TextBox x:Name="inputTextBox"
                      Height="25"
                      Text="Bob" 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjectLibrary;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -57,6 +58,12 @@ namespace ChessProject
             {
                 textBox.Text = "Enter text here";
             }
+        }
+
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            RadioButton radioButton = (RadioButton)sender;
+            AllPositions.Gender = radioButton.Content.ToString();
         }
     }
 }

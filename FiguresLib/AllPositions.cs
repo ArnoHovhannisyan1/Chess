@@ -38,6 +38,8 @@ namespace ProjectLibrary
 
         public static List<Coords> CurrentLegalMoves = new List<Coords>();
 
+        public static string Gender { get; set; }
+
         public static IFigure MovingFigure { get; set; }
 
         public static List<IFigure> FigsOnBoard = new List<IFigure>();
